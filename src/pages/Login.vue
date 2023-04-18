@@ -79,12 +79,14 @@ export default {
   methods: {
     async login() {
       try {
-        const response = await axios.post("/api/login", {
+        const response = await request.post("/api/user/login", {
           username: this.username,
           password: this.password,
         }).then((response) =>{
-          localStorage.setItem('token',response.data.token)
-          router.push("/")
+          console.log("执行了：token {}", response.data)
+          localStorage.setItem("token","liudy23xxxyyyzzz")
+          // localStorage.setItem('token',response.data.token)
+          this.$router.push("/");
         });
         // localStorage.setItem("token", response.data.token);
         // this.$router.push("/");
