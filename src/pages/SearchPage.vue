@@ -26,8 +26,8 @@
       :items="tagList"
   />
 
-  <div style="padding: 12px">
-    <van-button block type="primary" @click="doResearchResult()">开始搜索</van-button>
+  <div style="margin-top: 5px">
+    <van-button round block type="primary" @click="doResearchResult()">开始搜索</van-button>
   </div>
 
 </template>

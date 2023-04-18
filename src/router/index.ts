@@ -1,6 +1,7 @@
 import {createRouter, createWebHashHistory, createWebHistory} from 'vue-router'
 import HomePage from '../pages/HomePage.vue'
 import TeamPage from '../pages/TeamPage.vue'
+import Login from '../pages/Login.vue'
 import UserPage from '../pages/UserPage.vue'
 import SearchPage from '../pages/SearchPage.vue'
 import SearchResultPage from '../pages/SearchResultPage.vue'
@@ -41,6 +42,11 @@ const router = createRouter({
       path: '/user/edit',
       name: 'userEdit',
       component: UserEditPage
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
     },
     // {
     //   path: '/about',
