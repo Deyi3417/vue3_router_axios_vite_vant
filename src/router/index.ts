@@ -5,7 +5,7 @@ import Login from '../pages/Login.vue'
 import UserPage from '../pages/UserPage.vue'
 import SearchPage from '../pages/SearchPage.vue'
 import SearchResultPage from '../pages/SearchResultPage.vue'
-import UserEditPage from '../pages/UserEditPage.vue.vue'
+import UserEditPage from '../pages/UserEditPage.vue'
 import HomeView from '../views/HomeView.vue'
 
 
