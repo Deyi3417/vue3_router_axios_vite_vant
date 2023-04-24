@@ -23,7 +23,7 @@ import {useRouter} from "vue-router";
 
 const user = {
   id: 1,
-  username: '刘德意',
+  username: '刘德意123',
   userAccount: 'liudy23',
   avatarUrl: 'https://api2.mubu.com/v3/photo/925eae67-7595-426d-a629-16ff249aaf75.jpg',
   gender: '男',
