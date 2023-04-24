@@ -40,7 +40,6 @@ app.use(Icon)
 app.use(Tabbar);
 app.use(TabbarItem);
 app.use(NavBar);
-
 app.use(Button)
 app.use(router)
 
